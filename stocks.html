@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stocks</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
+
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html" style="color: black">Aadi Dashboard</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html" style="color: black">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stocks.html" style="color: black">Stocks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="weather.html" style="color: black">Weather</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3">Stocks
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="stocks.html">Stocks</a>
+      </li>
+      <li class="breadcrumb-item active">Home</li>
+    </ol>
+    <div class="row">
+      <div class="col-lg-3 mb-4">
+        <div class="list-group">
+          <a href="home.html" class="list-group-item">Home</a>
+          <a href="stocks.html" class="list-group-item">Stocks</a>
+          <a href="weather.html" class="list-group-item">Weather</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+         <input id="ticker" type="text"placeholder="Search for Stock Name..." style="width:600px; float: left"><br />
+         <div id="stockPrice" style="margin:10px 0px 0px 0px; line-height: 120%; padding:10px; background-color: pink; width: 200px;">&nbsp;</div>
+    </div>
+    </div>
+  </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/stocks.js"></script> 
+
+</body>
+
+</html>
